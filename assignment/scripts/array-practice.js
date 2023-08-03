@@ -28,18 +28,18 @@ console.log('Number of favorite foods:', favoriteFoods.length);
 console.log('--- 3. Accessing items in an array ---');
 
 // Example: Log the first animal from the array using it's array index
-console.log('First animal is', animalArray[0])
+console.log('First animal is', animalArray[0]);
 
 // 3.a. TODO: Log the second animal in the array 
-console.log('Second animal is', animalArray[1])
+console.log('Second animal is', animalArray[1]);
 
 // 3.b. TODO: Log the last animal in the array using it's array index 
-console.log('The last animal is', animalArray[3])
+console.log('The last animal is', animalArray[3]);
 
 // 3.c. (STRETCH) TODO: Log the last animal by using the array length, 
 //      instead of the exact index number of the last item
-let lastAnimal = animalArray[animalArray.length - 1]
-console.log('The last animal is', lastAnimal)
+let lastAnimal = animalArray[animalArray.length - 1];
+console.log('The last animal is', lastAnimal);
 
 
 // 4. Adding & Removing Array Items
@@ -50,8 +50,8 @@ animalArray.push('penguin');
 console.log('Added an animal to end,', animalArray);
 
 // 4.a. TODO: Add a new food at the end of your array & log the array
-
-
+favoriteFoods.push('strawberries');
+console.log('Added a favorite food to the end,', favoriteFoods);
 
 // Example: Remove the last animal by using Array.pop
 let removedAnimal = animalArray.pop();
