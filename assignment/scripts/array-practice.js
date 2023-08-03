@@ -106,3 +106,5 @@ console.log(foodAnd);
 //     Then log the new array.
 //     It should look something like:
 //     ['pizza', 'pasta', 'fish', 'cat', 'bird', 'dog']
+const foodAnimal = favoriteFoods.concat(animalArray);
+console.log(foodAnimal);
