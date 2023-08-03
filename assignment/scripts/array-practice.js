@@ -90,7 +90,9 @@ let replacedFood = favoriteFoods.splice(favoriteFoods.indexOf("pizza"),1, 'burge
 console.log(replacedFood, ' did not make the cut so now ',favoriteFoods, ' are the best!' );
 // 4.f (STRETCH) TODO: Sort your favoriteFoods array
 //     in reverse alphabetical order. Log the array.
-
+favoriteFoods.sort();
+favoriteFoods.reverse();
+console.log(favoriteFoods);
 
 // 4.g (STRETCH) TODO: Convert your array to a string
 //     putting the word "and" between each item.
