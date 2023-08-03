@@ -86,9 +86,11 @@ console.log('My favorite foods are now', favoriteFoods);
 // 4.e (STRETCH) TODO: Replace the second food in your array
 //      with another one of your favorite foods.
 //      Then log the updated array.
-
+let replacedFood = favoriteFoods.splice(favoriteFoods.indexOf("pizza"),1, 'burgers');
+console.log(replacedFood, ' did not make the cut so now ',favoriteFoods, ' are the best!' );
 // 4.f (STRETCH) TODO: Sort your favoriteFoods array
 //     in reverse alphabetical order. Log the array.
+
 
 // 4.g (STRETCH) TODO: Convert your array to a string
 //     putting the word "and" between each item.
